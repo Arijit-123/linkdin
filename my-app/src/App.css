@@ -1,0 +1,259 @@
+.header_left >img{
+object-fit: contain;
+height: 40px;
+margin-right: 10px;
+}
+.header_left{
+    display: flex;
+}
+.header_search{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    height: 22px;
+    color: gray;
+    background-color: #eef3f8;
+}
+.header_search >input{
+    outline: none;
+    border: none;
+    background-color: #eef3f8;
+}
+.headeroptions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: gray;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+.headeroptions:hover{
+    color: black; 
+}
+.header{
+    display: flex;
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: 0.1px solid lightgray;
+    justify-content: space-evenly;
+}
+.header_right{
+    display: flex;
+}
+
+.headeroptions>h6{
+    margin: 0px;
+}
+.sidebar{
+    position:sticky;
+top:80px;
+flex:0.2;
+border-radius: 10px;
+text-align: center;
+height:fit-content;
+border-radius: 20px;
+}
+#name{
+    margin: 0px;
+}
+#email{
+    margin: 0px;
+}
+.app_body{
+    display: flex;
+}
+#view{
+    margin: 0px;
+}
+.sidebar_number{
+    margin: 0px;
+}
+.post_views{
+    margin: 0px;
+}
+.post_number{
+    margin: 0px;
+}
+
+.sidebar_top{
+    display: flex;
+    background-color: #dfddd9;
+    flex-direction: column;
+   align-items: center;
+}
+.sidebar_stats{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   background-color: #dfddd9;
+   border: 2px solid lightgray;
+}
+.app{
+    background-color: #f3f2ef;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+}
+.sidebar_avatar{
+    margin-bottom: 10px;
+
+}
+.sidebar_top>img{
+    margin-bottom: -20px;
+    width: 100%;
+    height: 60px;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px;
+    object-fit: cover;
+}
+.sidebar_stat {
+display: flex;
+margin-top: 10px;
+justify-content: space-between;
+
+}
+#sidebar_one{
+    background-color: #dfddd9;
+}
+
+.sidebar_stat>p{
+   
+font-size: 13px;
+font-weight: 600;
+margin-left: 10px;
+}
+.sidebar_number{
+    color: #0a66c2;
+}
+
+.sidebar_bottom{
+    background-color: #dfddd9;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.items{
+    display: flex;
+    margin: 10px; 
+}
+.items>span{
+color: gray;
+}
+.items>span:hover{
+    color: black;
+    cursor: pointer;
+}
+.feed{
+    flex: 0.6;
+    margin: 0 20px;
+}
+
+.feed_inputcontainer{
+    background-color: #dfddd9;
+    padding: 10px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.feed_input{
+    border: 1px solid rgb(44, 42, 42);
+    border-radius: 30px;
+    display: flex;
+    padding: 10px;
+    color: gray;
+    padding-left: 15px;
+}
+.feed_input>form{
+    display: flex;
+    width: 100%;
+}
+.feed_input>form>input{
+    border:none;
+    flex: 1;
+    margin-left: 10px;
+    outline-width: 0;
+    font-weight: 600;
+    background-color:#dfddd9;
+}
+
+.feed_input>form>button{
+    display: none;
+}
+.feed_optioninput{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: gray;
+    cursor: pointer;
+}
+.title_arrangement{
+    display: flex;
+}
+.post{
+    background-color: #dfddd9;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.post_header{
+    display: flex;
+}
+.post_header{
+   
+}
+.post_info>h2{
+    margin: 0px;
+    margin-left: 10px;
+}
+.post_info>p{
+    margin: 0px;
+    margin-left: 10px;
+}
+.post_buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
+.login{
+    display: grid;
+    place-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    padding-bottom:100px ;
+}
+.login>img{
+    object-fit: contain;
+    height: 70px;
+    
+}
+
+.login>form{
+    display: flex;
+    flex-direction: column;
+}
+.login>form>input{
+width: 350px;
+height: 50px;
+font-size: 20px;
+padding-left: 10px;
+margin-bottom: 14px;
+border-radius: 5px;
+}
+.login>form>button{
+    width: 365px;
+    height: 50px;
+    font-size: large;
+    color: #fff;
+    border-radius: 5px;
+    background-color:#0074b1 ;
+}
+.login_register{
+    color: #0074b1;
+}
